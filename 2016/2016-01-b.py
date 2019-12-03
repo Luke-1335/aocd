@@ -15,7 +15,7 @@ for instruction in data.split(", "):
  
         if (pos in visited): 
             result = abs(dirs[0] - dirs[2]) + abs(dirs[1] - dirs[3])
-            print("result", result)  
+            print("result", result)
             submit(result)
             exit()
         else:
