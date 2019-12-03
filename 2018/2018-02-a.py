@@ -10,11 +10,11 @@ for line in lines:
             chars[c] += 1
         except KeyError:
             chars[c] = 1
-            
+
     d += any([val == 2 for val in chars.values()])
     t += any([val == 3 for val in chars.values()])
 
 result = d * t
-print("result", result)  
+print("result", result)
 submit(result)
 
