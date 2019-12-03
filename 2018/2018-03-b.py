@@ -10,7 +10,7 @@ for fab in data.split("\n"):
     w, t = map(int, fab[3].split("x"))
     fabrics.add(f_id)
 
-    for yy in range(y, y+t): 
+    for yy in range(y, y+t):
         for xx in range(x, x+w):
             pt = (xx, yy)
             if pt in suit:
