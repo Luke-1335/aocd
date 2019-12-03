@@ -10,7 +10,7 @@ for line in lines:
         if val <= 0: break
         result += val 
 
-        
-print("result", result)        
+
+print("result", result)
 submit(result)
 
