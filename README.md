@@ -1,6 +1,6 @@
 # aocd - Advent of Code
 
-using **python 3.6** and module **advent-of-code-data**, see: https://github.com/wimglenn/advent-of-code-data
+using **python 3.6** and module **advent-of-code-data**, see: <https://github.com/wimglenn/advent-of-code-data>
 
 ## Completion overview:
 ```
