@@ -8,7 +8,7 @@ for line in lines:
     while True:
         val = val // 3 - 2
         if val <= 0: break
-        result += val 
+        result += val
 
 
 print("result", result)
