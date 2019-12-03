@@ -11,11 +11,11 @@ for noun in range (99):
         for i in range(0, len(program), 4):
             opcode = program[i]
             if opcode == 99: break
-            
+
             a = program[i+1]
             b = program[i+2]
             c = program[i+3]
-            
+
             if opcode == 1:
                 program[c] = program[a] + program[b]
             elif opcode == 2:
@@ -25,7 +25,7 @@ for noun in range (99):
 
         if 19690720 == program[0]:
             result = 100 * noun + verb
-            print("result", result)  
+            print("result", result)
             submit(result)
             exit()
 
