@@ -13,7 +13,7 @@ for fab in data.split("\n"):
     for yy in range(y, y+t): 
         for xx in range(x, x+w):
             pt = (xx, yy)
-            if pt in suit: 
+            if pt in suit:
                 suit[pt].add(f_id)
                 fabrics -= suit[pt]
             else:
