@@ -1,8 +1,8 @@
 # aocd - Advent of Code
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f816ea895a8d48179a5fa2619cd19979)](https://www.codacy.com/manual/Luke-1335/aocd?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Luke-1335/aocd&amp;utm_campaign=Badge_Grade)  
 using **python 3.6** and module **advent-of-code-data**, see: <https://github.com/wimglenn/advent-of-code-data>
 
-## Completion overview:
+## Completion overview
 ```
   *  Completed first
  **  Completed both  
