@@ -8,6 +8,6 @@ for line in lines:
     sides   = (l*w, l*h, w*h)
     result += 2*sum(sides) + min(sides)
 
-print("result", result)  
+print("result", result)
 submit(result)
 
