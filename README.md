@@ -3,6 +3,7 @@
 using **python 3.6** and module **advent-of-code-data**, see: <https://github.com/wimglenn/advent-of-code-data>
 
 ## Tasks to do
+- [ ] optimize solution for day 4 in 2015
 - [ ] optimize solution for day 4 in 2019
 - [ ] complete 2019
 - [ ] complete 2018
@@ -20,7 +21,7 @@ using **python 3.6** and module **advent-of-code-data**, see: <https://github.co
 | **Year** | **Day**  | | |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
 | -------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 |          | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
-|   2015   | ** | ** | ** |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |
+|   2015   | ** | ** | ** | ** |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |
 |   2016   | ** | ** |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |
 |   2017   |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |
 |   2018   | ** | ** | ** |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |  x |
