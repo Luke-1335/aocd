@@ -12,6 +12,7 @@ def process_row(string):
 entries = [process_row(row) for row in data.split("\n")]
 entries.sort()
 guards = {}
+gid, start = "", 0
 
 for entry in entries:
     if "w" == entry[1]:
