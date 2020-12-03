@@ -8,7 +8,7 @@ for i, a in enumerate(values):
         for c in values[i+2:]:
             if a + b + c != 2020: continue
             result = a * b * c
-            print("result", result)  
+            print("result", result)
             submit(result)
             break
 
