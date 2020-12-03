@@ -16,11 +16,11 @@ result = 1
 
 for ix, iy in instructions:
     local = x = 0
-    
+
     for y in range(iy, len(data), iy):
         x = (x + ix) % x_max
         local += data[y][x] == "#"
-        
+
     result *= local
 
 print("result", result)
