@@ -29,7 +29,7 @@ for row in data:
         try:
             key, val = entry.split(":")
             required[key] = validate[key](val)
-        except: pass
+        except (ValueError, KeyError): pass
 
 print("result", valid)
 submit(valid)
