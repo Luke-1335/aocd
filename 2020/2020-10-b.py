@@ -9,11 +9,11 @@ result = 1
 i = 0
 
 while i < len(data) - 1:
-    next = 1
-    while data[i + next] - data[i] == next: next += 1
+    in_row = 1
+    while data[i + in_row] - data[i] == in_row: in_row += 1
 
-    result *= mults[next - 1]
-    i += next
+    result *= mults[in_row - 1]
+    i += in_row
 
 print(result)
 submit(result)
