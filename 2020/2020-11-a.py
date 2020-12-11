@@ -19,7 +19,7 @@ while True:
     i += 1
     cur_state = data[(i + 1) % 2]
     new_state = data[i % 2]
-   
+
     for y, row in enumerate(cur_state):
         for x, val in enumerate(row):
             if val == ".": continue
