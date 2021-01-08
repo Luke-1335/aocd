@@ -10,7 +10,7 @@ transfrom_number = lambda input_num, subject_num: (input_num * subject_num) % 20
 
 
 def loop_size (subject_number, public_key):
-    key = loop_size = value = 1
+    loop_size = value = 1
 
     while True:
         value = transfrom_number(value, subject_number)
